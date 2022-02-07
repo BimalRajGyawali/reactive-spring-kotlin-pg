@@ -1,4 +1,4 @@
-## Reactive Spring with Kotlin and Pg
+# Reactive Spring with Kotlin and Pg
 
 - Spring WebFlux with Netty instead of Spring Web with Tomcat
 
@@ -8,8 +8,9 @@
 
 - Two alternatives : 1. Spring Data R2DBC  and  2. Reactive Hibernate
 
+<br>
 
-### Spring Data R2DBC
+## 1. Spring Data R2DBC
 
 - Instead R2DBC(Reactive Relational Database Connectivity) and Spring Data R2DBC is used
 
