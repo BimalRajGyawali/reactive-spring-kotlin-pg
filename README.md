@@ -19,6 +19,7 @@
 
 - `org.springframework.data.relational.core.mapping.Table` is used to indicate that a given class represents a table (does not create table in db, only representation )instead of javax.persistence.Table
 
+<br>
 
 `repo`
 
@@ -59,6 +60,7 @@ spring.data.r2dbc.repositories.enabled=true
 
 ```
 
+<br>
 
 **Limitations of Spring Data R2DBC** :
 
@@ -80,13 +82,14 @@ But they're in the team roadmap , Even if a clear release date has not yet been 
 For all that , in some special cases , if the development team is ready to do more manual work , what is worth considering is R2DBC performance improvements.
  
  
-References :
+References :<br>
 [https://javamana.com/2021/01/20210120001209100Y.html](https://javamana.com/2021/01/20210120001209100Y.html)<br>
 [https://github.com/spring-projects/spring-data-r2dbc](https://github.com/spring-projects/spring-data-r2dbc)<br>
 [https://dzone.com/articles/you-dont-need-hibernate-with-spring-webflux-and-r2](https://dzone.com/articles/you-dont-need-hibernate-with-spring-webflux-and-r2)<br>
  
  
  <br>
+ 
 ## 2. Hibernate Reactive
 
 - Hibernate started a subproject — Hibernate Reactive for Reactive Streams support
@@ -99,7 +102,8 @@ References :
 
  - Hibernate Reactive uses the reactive engine Vert.x and its non-blocking SQL client libraries (not R2DBC). 
 
+<br>
 
-References : 
-(https://www.i-programmer.info/news/80-java/15025-hibernate-goes-reactive-but-what-does-that-mean.html)[https://www.i-programmer.info/news/80-java/15025-hibernate-goes-reactive-but-what-does-that-mean.html]
+References : <br>
+[https://www.i-programmer.info/news/80-java/15025-hibernate-goes-reactive-but-what-does-that-mean.html](https://www.i-programmer.info/news/80-java/15025-hibernate-goes-reactive-but-what-does-that-mean.html)
 
